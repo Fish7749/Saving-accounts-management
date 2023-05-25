@@ -1,5 +1,5 @@
 
-# Savbase
+# Saving accounts management
 
 <img alt="Logo" height="128" src="src/main/resources/images/logo.png" title="Logo" width="128"/>
 
