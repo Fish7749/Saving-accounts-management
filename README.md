@@ -61,7 +61,8 @@ javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED
 --illegal-access=warn
 ````
 - Run file [Savebase SQL](Savbase.sql) to get application test data
-- Update connection string in [db.properties](db.properties) file
+- Update connection string in [db.properties](db.properties) file to:
+    connection_string=jdbc\:sqlserver\://localhost\\<YOUR SERVER>\:<YOUR PORT>;instance\=sqlexpress;databaseName\=Savbase;user\=sa;password\=123456789
 - Congrats! You're all set. Let's run the application.
 ## Authors
 
