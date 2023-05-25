@@ -66,8 +66,8 @@ javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED
 ## Authors
 
 - [Trần Huyền Anh Thy](https://github.com/Fish7749)
-- [Nguyễn Phúc Hưng]()
-- [Hồ Minh Ngân]()
+- [Nguyễn Phúc Hưng](https://github.com/1k32k2)
+- [Hồ Minh Ngân](https://github.com/riz285)
 ## Screenshots
 <p align="center">
  <img src="./src/main/resources/screenshots/splash.png" alt="splash"/>
