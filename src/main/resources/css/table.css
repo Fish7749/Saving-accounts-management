@@ -1,7 +1,7 @@
 @import './constants.css';
 
 .table-view {
-    -fx-background-color: transparent
+    -fx-background-color: transparent;
 }
 
 .table-view .column-header {
@@ -17,25 +17,26 @@
 
 .table-view .column-header-background .label{
     -fx-background-color: transparent;
-    -fx-text-fill: -primary;
+    -fx-text-fill: #3F3B6C;
     -fx-alignment: CENTER-LEFT;
     -fx-padding: 0 0 0 0;
-
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
 }
-
 
 .table-row-cell {
     -fx-background-color: #fff;
-    -fx-text-fill: -primary;
-    -fx-cell-size: 50;
-    -fx-font-size: 12;
-    -fx-padding: 0 0 0 10;
+    -fx-text-fill: #3F3B6C;
+    -fx-cell-size: 65;
+    -fx-font-size: 14;
+    -fx-padding: 0 0 0 0;
     -fx-font-weight: 500;
 }
 
 .table-row-cell:selected {
-    -fx-background-color: #32A05F;
-        -fx-text-fill: #fff;
+    -fx-background-color: #9F73AB;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
 }
 
 .table-view .column-header {

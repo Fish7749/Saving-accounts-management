@@ -14,21 +14,21 @@
     <children>
         <AnchorPane prefHeight="755.0" prefWidth="868.0" styleClass="tabpage" stylesheets="@../../css/tab.css">
             <children>
-                <TableView fx:id="tbEmployee" layoutX="41.0" layoutY="80.0" prefHeight="560.0" prefWidth="804.0" AnchorPane.leftAnchor="41.0" AnchorPane.rightAnchor="23.0">
+                <TableView fx:id="tbEmployee" layoutX="41.0" layoutY="80.0" prefHeight="650.0" prefWidth="804.0" AnchorPane.leftAnchor="41.0" AnchorPane.rightAnchor="23.0">
                     <stylesheets>
                         <URL value="@../../css/table.css" />
                     </stylesheets></TableView>
-                <JFXButton fx:id="btnAddEmployee" layoutX="741.0" layoutY="20.0" onAction="#onOpenAdd" prefHeight="38.0" prefWidth="104.0" ripplerFill="#32a05f" style="-fx-background-color: #32A05F; -fx-background-radius: 30;" text="Thêm mới" textFill="WHITE" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="20.0">
+                <JFXButton fx:id="btnAddEmployee" layoutX="741.0" layoutY="20.0" onAction="#onOpenAdd" prefHeight="38.0" prefWidth="104.0" ripplerFill="#32a05f" style="-fx-background-color: #3F3B6C; -fx-background-radius: 30; -fx-font-weight: bold; -fx-font-size: 15;" text="Thêm mới" textFill="WHITE" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="20.0">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXButton>
-                <JFXButton fx:id="btnDelEmployee" layoutX="504.0" layoutY="20.0" onAction="#onDel" prefHeight="38.0" prefWidth="104.0" ripplerFill="#32a05f" style="-fx-background-color: #32A05F; -fx-background-radius: 30;" text="Xóa" textFill="WHITE" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="20.0">
+                <JFXButton fx:id="btnDelEmployee" layoutX="504.0" layoutY="20.0" onAction="#onDel" prefHeight="38.0" prefWidth="104.0" ripplerFill="#32a05f" style="-fx-background-color: #3F3B6C; -fx-background-radius: 30; -fx-font-weight: bold; -fx-font-size: 15;" text="Xóa" textFill="WHITE" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="20.0">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXButton>
-            <JFXButton fx:id="btnEditEmployee" layoutX="623.0" layoutY="20.0" onAction="#onOpenEdit" prefHeight="38.0" prefWidth="104.0" ripplerFill="#32a05f" style="-fx-background-color: #32A05F; -fx-background-radius: 30;" text="Sửa" textFill="WHITE" AnchorPane.rightAnchor="141.0" AnchorPane.topAnchor="20.0">
+            <JFXButton fx:id="btnEditEmployee" layoutX="623.0" layoutY="20.0" onAction="#onOpenEdit" prefHeight="38.0" prefWidth="104.0" ripplerFill="#32a05f" style="-fx-background-color: #3F3B6C; -fx-background-radius: 30; -fx-font-weight: bold; -fx-font-size: 15;" text="Sửa" textFill="WHITE" AnchorPane.rightAnchor="141.0" AnchorPane.topAnchor="20.0">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>

@@ -9,42 +9,41 @@
 
 <AnchorPane prefHeight="397.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.dialogs.AddSavingTypeController">
    <children>
-      <Label layoutX="170.0" layoutY="21.0" text="Thêm loại sổ mới" textAlignment="CENTER">
+      <Label layoutX="170.0" layoutY="5.0" text="Thêm loại sổ mới" textAlignment="CENTER">
          <font>
             <Font name="Segoe UI Bold" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="52.0" layoutY="102.0" text="Tên loại sổ" textAlignment="CENTER">
+      <Label layoutX="45.0" layoutY="90.0" text="Tên loại sổ" textAlignment="CENTER" style="-fx-font-weight: bold; -fx-font-size: 15;">
          <font>
-            <Font name="Segoe UI" size="16.0" />
+            <Font name="Segoe UI"/>
          </font>
       </Label>
-      <Label layoutX="52.0" layoutY="152.0" text="Kỳ hạn" textAlignment="CENTER">
+      <Label layoutX="45.0" layoutY="140.0" text="Kỳ hạn" textAlignment="CENTER" style="-fx-font-weight: bold; -fx-font-size: 15;">
          <font>
-            <Font name="Segoe UI" size="16.0" />
+            <Font name="Segoe UI"/>
          </font>
       </Label>
-      <Label layoutX="52.0" layoutY="202.0" text="Số ngày gửi tối thiểu" textAlignment="CENTER">
+      <Label layoutX="45.0" layoutY="190.0" text="Số ngày gửi tối thiểu" textAlignment="CENTER" style="-fx-font-weight: bold; -fx-font-size: 15;">
          <font>
-            <Font name="Segoe UI" size="16.0" />
+            <Font name="Segoe UI"/>
          </font>
       </Label>
-      <Label layoutX="52.0" layoutY="252.0" text="Quy định rút tiền" textAlignment="CENTER">
+      <Label layoutX="45.0" layoutY="240.0" text="Quy định rút tiền" textAlignment="CENTER" style="-fx-font-weight: bold; -fx-font-size: 15;">
          <font>
-            <Font name="Segoe UI" size="16.0" />
+            <Font name="Segoe UI"/>
          </font>
       </Label>
-      <JFXTextField fx:id="txtSavingName" layoutX="232.0" layoutY="82.0" prefHeight="30.0" prefWidth="280.0" />
-      <JFXTextField fx:id="txtTenor" layoutX="232.0" layoutY="132.0" prefHeight="31.0" prefWidth="70.0" />
-      <JFXTextField fx:id="txtMinSending" layoutX="232.0" layoutY="182.0" prefHeight="30.0" prefWidth="70.0" />
-      <JFXComboBox fx:id="cbRule" layoutX="232.0" layoutY="232.0" prefHeight="30.0" prefWidth="150.0" />
-      <JFXButton fx:id="btnAdd" layoutX="190.0" layoutY="322.0" onMouseClicked="#onAddNewSavingType" prefHeight="47.0" prefWidth="134.0" style="-fx-background-color: #32A05F; -fx-text-fill: white; -fx-background-radius: 30;" text="Thêm" />
-      <JFXButton fx:id="btnClose" layoutX="347.0" layoutY="322.0" onMouseClicked="#onClose" prefHeight="47.0" prefWidth="134.0" style="-fx-background-color: #32A05F; -fx-text-fill: white; -fx-background-radius: 30;" text="Đóng" />
-      <Label layoutX="335.0" layoutY="152.0" text="Lãi suất" textAlignment="CENTER">
+      <JFXTextField fx:id="txtSavingName" layoutX="220.0" layoutY="80.0" prefHeight="30.0" prefWidth="270.0" style="-fx-font-size: 14;"/>
+      <JFXTextField fx:id="txtTenor" layoutX="220.0" layoutY="130.0" prefHeight="31.0" prefWidth="90.0" style="-fx-font-size: 14;"/>
+      <JFXTextField fx:id="txtMinSending" layoutX="220.0" layoutY="180.0" prefHeight="30.0" prefWidth="270.0" style="-fx-font-size: 14;"/>
+      <JFXComboBox fx:id="cbRule" layoutX="220.0" layoutY="230.0" prefHeight="30.0" prefWidth="270.0" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+      <JFXButton fx:id="btnAdd" layoutX="215.0" layoutY="300.0" onMouseClicked="#onAddNewSavingType" prefHeight="47.0" prefWidth="134.0" style="-fx-background-color: #3F3B6C; -fx-text-fill: white; -fx-background-radius: 30; -fx-font-weight: bold; -fx-font-size: 15;" text="Thêm" />
+      <Label layoutX="320.0" layoutY="150.0" text="Lãi suất" textAlignment="CENTER" style="-fx-font-weight: bold; -fx-font-size: 15;">
          <font>
-            <Font name="Segoe UI" size="16.0" />
+            <Font name="Segoe UI" />
          </font>
       </Label>
-      <JFXTextField fx:id="txtInterestRate" layoutX="404.0" layoutY="132.0" prefHeight="31.0" prefWidth="100.0" />
+      <JFXTextField fx:id="txtInterestRate" layoutX="380.0" layoutY="130.0" prefHeight="31.0" prefWidth="110.0" style="-fx-font-size: 14;"/>
    </children>
 </AnchorPane>
