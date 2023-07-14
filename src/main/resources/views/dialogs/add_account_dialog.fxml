@@ -14,38 +14,38 @@
    <children>
       <AnchorPane prefHeight="583.0" prefWidth="732.0" style="-fx-background-color: white;">
          <children>
-            <Label layoutX="59.0" layoutY="29.0" text="Mở sổ cho loại khách hàng : " />
-            <JFXRadioButton fx:id="radCu" layoutX="59.0" layoutY="60.0" text="Cho khách hàng cũ" />
-            <JFXRadioButton fx:id="radMoi" layoutX="236.0" layoutY="60.0" text="Cho khách hàng mới" />
-            <Label layoutX="59.0" layoutY="105.0" text="CMND/CCCD" />
-            <JFXTextField fx:id="txtCMND" layoutX="181.0" layoutY="100.0" prefHeight="31.0" prefWidth="213.0" />
-            <Label layoutX="59.0" layoutY="148.0" text="Họ và tên" />
-            <JFXTextField fx:id="txtHoTen" layoutX="181.0" layoutY="143.0" prefHeight="31.0" prefWidth="213.0" />
-            <Label layoutX="418.0" layoutY="105.0" text="Ngày sinh" />
-            <JFXDatePicker fx:id="dpNgaySinh" defaultColor="#0f4641" layoutX="513.0" layoutY="100.0" prefHeight="33.0" prefWidth="181.0">
+            <Label layoutX="59.0" layoutY="29.0" text="Khách hàng được mở:" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXRadioButton fx:id="radCu" selectedColor="#624F82" layoutX="59.0" layoutY="60.0" text="Cho khách hàng cũ" style="-fx-font-size: 14;"/>
+            <JFXRadioButton fx:id="radMoi" selectedColor="#624F82" layoutX="236.0" layoutY="60.0" text="Cho khách hàng mới" style="-fx-font-size: 14;"/>
+            <Label layoutX="59.0" layoutY="105.0" text="CMND/CCCD" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXTextField fx:id="txtCMND" layoutX="181.0" layoutY="100.0" prefHeight="31.0" prefWidth="213.0" style="-fx-font-size: 14;"/>
+            <Label layoutX="59.0" layoutY="148.0" text="Họ và tên" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXTextField fx:id="txtHoTen" layoutX="181.0" layoutY="143.0" prefHeight="31.0" prefWidth="213.0" style="-fx-font-size: 14;"/>
+            <Label layoutX="418.0" layoutY="105.0" text="Ngày sinh" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXDatePicker fx:id="dpNgaySinh" defaultColor="#624F82" layoutX="513.0" layoutY="100.0" prefHeight="33.0" prefWidth="181.0" style="-fx-font-size: 14;">
                <padding>
                   <Insets left="30.0" />
                </padding>
             </JFXDatePicker>
-            <Label layoutX="418.0" layoutY="148.0" text="Giới tính" />
-            <ComboBox fx:id="cboGioiTinh" layoutX="578.0" layoutY="140.0" prefHeight="38.0" prefWidth="115.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: black; -fx-background-color: white;" />
-            <Label layoutX="59.0" layoutY="201.0" text="Địa chỉ" />
-            <JFXTextField fx:id="txtDiaChi" layoutX="181.0" layoutY="196.0" prefHeight="31.0" prefWidth="512.0" />
-            <Label layoutX="59.0" layoutY="252.0" text="Email" />
-            <JFXTextField fx:id="txtEmail" layoutX="181.0" layoutY="247.0" prefHeight="31.0" prefWidth="512.0" />
-            <Label layoutX="59.0" layoutY="303.0" text="Số điện thoại" />
-            <JFXTextField fx:id="txtSDT" layoutX="181.0" layoutY="298.0" prefHeight="31.0" prefWidth="512.0" />
-            <Label layoutX="59.0" layoutY="359.0" text="Số tiền ban đầu" />
-            <JFXTextField fx:id="txtSoTien" layoutX="181.0" layoutY="354.0" prefHeight="31.0" prefWidth="512.0" />
-            <Label layoutX="59.0" layoutY="412.0" text="Ngày mở sổ" />
-            <JFXDatePicker fx:id="dpNgayMo" defaultColor="#0f4641" layoutX="181.0" layoutY="406.0" prefHeight="33.0" prefWidth="181.0">
+            <Label layoutX="418.0" layoutY="148.0" text="Giới tính" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <ComboBox fx:id="cboGioiTinh" layoutX="545.0" layoutY="140.0" prefHeight="38.0" prefWidth="130.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: black; -fx-background-color: white; -fx-font-size: 14;" />
+            <Label layoutX="59.0" layoutY="201.0" text="Địa chỉ" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXTextField fx:id="txtDiaChi" layoutX="181.0" layoutY="196.0" prefHeight="31.0" prefWidth="512.0" style="-fx-font-size: 14;"/>
+            <Label layoutX="59.0" layoutY="252.0" text="Email" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXTextField fx:id="txtEmail" layoutX="181.0" layoutY="247.0" prefHeight="31.0" prefWidth="512.0" style="-fx-font-size: 14;"/>
+            <Label layoutX="59.0" layoutY="303.0" text="Số điện thoại" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXTextField fx:id="txtSDT" layoutX="181.0" layoutY="298.0" prefHeight="31.0" prefWidth="512.0" style="-fx-font-size: 14;"/>
+            <Label layoutX="59.0" layoutY="359.0" text="Số tiền ban đầu" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXTextField fx:id="txtSoTien" layoutX="181.0" layoutY="354.0" prefHeight="31.0" prefWidth="512.0" style="-fx-font-size: 14;"/>
+            <Label layoutX="59.0" layoutY="412.0" text="Ngày mở sổ" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
+            <JFXDatePicker fx:id="dpNgayMo" defaultColor="#624F82" layoutX="181.0" layoutY="406.0" prefHeight="33.0" prefWidth="181.0" style="-fx-font-size: 14;">
                <padding>
                   <Insets left="30.0" />
                </padding>
             </JFXDatePicker>
-            <Label layoutX="418.0" layoutY="412.0" text="Loại sổ" />
-            <ComboBox fx:id="cboLoaiSo" layoutX="513.0" layoutY="404.0" prefHeight="38.0" prefWidth="190.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: black; -fx-background-color: white;" />
-            <JFXButton fx:id="btnTaoSo" layoutX="335.0" layoutY="483.0" onAction="#onAction" prefHeight="47.0" prefWidth="134.0" style="-fx-background-color: #32A05F; -fx-text-fill: white; -fx-background-radius: 30;" text="Tạo sổ" />
+            <Label layoutX="418.0" layoutY="412.0" text="Loại sổ" style="-fx-font-weight: bold; -fx-font-size: 15;"  />
+            <ComboBox fx:id="cboLoaiSo" layoutX="500.0" layoutY="404.0" prefHeight="38.0" prefWidth="175.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: black; -fx-background-color: white; -fx-font-size: 14;" />
+            <JFXButton fx:id="btnTaoSo" layoutX="300.0" layoutY="483.0" onAction="#onAction" prefHeight="47.0" prefWidth="134.0" style="-fx-background-color: #3F3B6C; -fx-text-fill: white; -fx-background-radius: 30; -fx-font-weight: bold; -fx-font-size: 15;" text="Tạo sổ" />
             <ComboBox fx:id="cbbOldAccounts" layoutX="181.0" layoutY="95.0" prefHeight="38.0" prefWidth="213.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: black; -fx-background-color: white;" visible="false" />
          </children>
       </AnchorPane>
