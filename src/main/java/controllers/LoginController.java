@@ -61,7 +61,7 @@ public class LoginController {
             @Override
             public Object call(Object param) {
                 if (command.getException().getMessage().equals("The statement did not return a result set.")) {
-                    SnackBarUtils.getInstance().show(root, "Tự động tính lãi thành công!");
+                    SnackBarUtils.getInstance().show(root, "Chào bạn đến với Savebase!");
 
                 }
                 else {

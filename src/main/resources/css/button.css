@@ -1,7 +1,7 @@
 @import './constants.css';
 
 .raised-button {
-    -fx-background-color: -primary;
+    -fx-background-color: #3F3B6C;
     -fx-text-fill: white;
     -fx-background-radius: 32;
     -fx-font: "Segoe UI";
@@ -16,5 +16,5 @@
 }
 
 .flat-button:hover {
-    -fx-text-fill: -primary;
+    -fx-text-fill: #624F82;
 }

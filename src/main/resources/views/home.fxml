@@ -16,7 +16,7 @@
     <children>
         <BorderPane fx:id="content" prefHeight="200.0" prefWidth="200.0">
             <left>
-                <VBox alignment="TOP_RIGHT" prefHeight="800.0" prefWidth="250.0" spacing="8.0" style="-fx-background-color: FAFAFA;" BorderPane.alignment="TOP_CENTER">
+                <VBox alignment="TOP_RIGHT" prefHeight="800.0" prefWidth="250.0" spacing="8.0" style="-fx-background-color: 3F3B6C;" BorderPane.alignment="TOP_CENTER">
                     <children>
                         <Pane fx:id="pnHeader" onMouseClicked="#onExpand" prefHeight="220.0" prefWidth="250.0">
                             <children>
