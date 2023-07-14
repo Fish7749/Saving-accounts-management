@@ -16,13 +16,13 @@
     <children>
         <BorderPane fx:id="content" prefHeight="200.0" prefWidth="200.0">
             <left>
-                <VBox alignment="TOP_RIGHT" prefHeight="800.0" prefWidth="250.0" spacing="8.0" style="-fx-background-color: 3F3B6C;" BorderPane.alignment="TOP_CENTER">
+                <VBox alignment="TOP_RIGHT" prefHeight="800.0" prefWidth="250.0" spacing="8.0" style="-fx-background-color: #624F82;" BorderPane.alignment="TOP_CENTER">
                     <children>
                         <Pane fx:id="pnHeader" onMouseClicked="#onExpand" prefHeight="220.0" prefWidth="250.0">
                             <children>
-                                <Text fx:id="lbUsername" layoutX="55.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="165.234375">
+                                <Text fx:id="lbUsername" layoutX="55.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="165.234375" style="-fx-fill: white;">
                                     <font>
-                                        <Font name="Segoe UI Bold" size="16.0" />
+                                        <Font name="Segoe UI Bold" size="16.0"/>
                                     </font>
                                 </Text>
                                 <ImageView layoutX="14.0" layoutY="60.0">
@@ -37,7 +37,7 @@
                                 </JFXButton>
                                 <JFXButton fx:id="btnLogout" layoutX="27.0" layoutY="168.0" onAction="#onLogout" prefHeight="39.0" prefWidth="196.0" styleClass="flat-button" stylesheets="@../css/button.css" text="Đăng xuất">
                                     <font>
-                                        <Font name="Segoe UI Semibold" size="16.0" />
+                                        <Font name="Segoe UI Semibold" size="15.0" />
                                     </font>
                                 </JFXButton>
                                 <Separator layoutX="25.0" layoutY="219.0" prefWidth="200.0" />
