@@ -123,8 +123,8 @@ public class TransactionsTabController {
     }
 
     void setSelectedTabButton(JFXButton btn) {
-        btnTabDeposit.setStyle("-fx-background-color: #32A05F; -fx-text-fill: white; -fx-background-radius: 30 0 0 30;");
-        btnTabWithdraw.setStyle("-fx-background-color: #32A05F; -fx-text-fill: white; -fx-background-radius: 0 30 30 0;");
+        btnTabDeposit.setStyle("-fx-background-color: #3F3B6C; -fx-text-fill: white; -fx-background-radius: 30 0 0 30; -fx-font-weight: bold; -fx-font-size: 15;");
+        btnTabWithdraw.setStyle("-fx-background-color: #3F3B6C; -fx-text-fill: white; -fx-background-radius: 0 30 30 0; -fx-font-weight: bold; -fx-font-size: 15;");
         if (btn == btnTabDeposit) {
             btnTabWithdraw.setStyle("-fx-background-color: transparent; -fx-text-fill: black;");
         } else if (btn == btnTabWithdraw) {
