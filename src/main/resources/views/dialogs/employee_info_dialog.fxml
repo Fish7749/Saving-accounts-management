@@ -25,7 +25,7 @@
       <JFXTextField fx:id="txtStaffName" editable="false" focusColor="#624F82" layoutX="153.0" layoutY="126.0" prefHeight="30.0" prefWidth="236.0" style="-fx-font-size: 14;"/>
       <Label layoutX="220.0" layoutY="254.0" text="Ngày sinh" style="-fx-font-weight: bold; -fx-font-size: 15;"/>
       <JFXTextField fx:id="txtAddress" editable="false" focusColor="#624F82" layoutX="153.0" layoutY="426.0" prefHeight="30.0" prefWidth="236.0" style="-fx-font-size: 14;"/>
-      <JFXButton fx:id="btnClose" layoutX="175.0" layoutY="479.0" onMouseClicked="#onClose" prefHeight="47.0" prefWidth="134.0" style="-fx-background-color: #3F3B6C; -fx-text-fill: white; -fx-background-radius: 30; -fx-font-weight: bold; -fx-font-size: 15;" text="Đóng"/>
+      <JFXButton fx:id="btnClose" layoutX="165.0" layoutY="479.0" onMouseClicked="#onClose" prefHeight="47.0" prefWidth="134.0" style="-fx-background-color: #3F3B6C; -fx-text-fill: white; -fx-background-radius: 30; -fx-font-weight: bold; -fx-font-size: 15;" text="Đóng"/>
       <JFXTextField fx:id="txtBornDate" editable="false" focusColor="#624F82" layoutX="298.0" layoutY="246.0" prefHeight="30.0" prefWidth="92.0" style="-fx-font-size: 14;"/>
    </children>
    <padding>
