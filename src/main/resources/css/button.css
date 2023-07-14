@@ -17,4 +17,10 @@
 
 .flat-button:hover {
     -fx-text-fill: #624F82;
+    -fx-background-color: #E0E0E0;
+}
+
+.flat-button {
+    -fx-background-color: #fafafa;
+    -fx-background-radius: 24;
 }

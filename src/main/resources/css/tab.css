@@ -7,13 +7,13 @@
 }
 
 .tab:hover {
-    -fx-text-fill: -primary;
+    -fx-text-fill: #624F82;
     -fx-background-color: #E0E0E0;
 }
 
 .tab-selected {
     -fx-background-radius: 24 0 0 24;
-    -fx-text-fill: -primary;
+    -fx-text-fill: #624F82;
     -fx-background-color: #E0E0E0;
     -fx-padding: 8 48;
 }
@@ -24,14 +24,14 @@
 }
 
 .horizontal-tab:hover {
-    -fx-text-fill: -primary;
+    -fx-text-fill: #624F82;
 }
 
 .horizontal-tab-selected {
     -fx-padding: 8 2;
-    -fx-text-fill: -primary;
+    -fx-text-fill: #624F82;
     -fx-border-width: 0 0 4 0;
-    -fx-border-color: -primary;
+    -fx-border-color: #624F82;
     -fx-border-style: solid;
 }
 
