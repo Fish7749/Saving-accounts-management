@@ -4,6 +4,7 @@ import com.jfoenix.controls.*;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.prefs.Preferences;
 
 import command.AutoCalculateInterestCommand;
 import command.LoginCommand;
@@ -50,6 +51,10 @@ public class LoginController {
     void initialize() {
         btnLogin.disableProperty().bind(Bindings.or(txtAccount.textProperty().isEmpty(), txtPassword.textProperty().isEmpty()));
         AutoCalculateInterestCommand command = new AutoCalculateInterestCommand();
+        String username = pref.get("Username","");
+        String password = pref.get("Password","");
+        txtAccount.setText(username);txtAccount.setPromptText(username);
+        txtPassword.setText(password);txtPassword.setPromptText(password);
         command.setOnSucceed(new Callback() {
             @Override
             public Object call(Object param) {
@@ -79,10 +84,35 @@ public class LoginController {
         txtAccount.setDisable(isLogining);
         txtPassword.setDisable(isLogining);
     }
-
+    public Preferences pref = Preferences.userRoot().node("ckbRemember");
+    public void saveLogin(String username, String password){
+        if(username == null || password == null){
+            System.out.println("Nothing to save.");
+        }
+        else{
+            String user = username;
+            pref.put("Username", username);
+            String pass = password;
+            pref.put("Password", password);
+            System.out.println("Login saved.");
+        }
+    }
+    public final void checked(boolean rmb){
+        if(rmb){
+            saveLogin(txtAccount.getText(), txtPassword.getText());
+        }
+        else{
+        }
+    }
     public void onLogin() {
-
         loginCommand = new LoginCommand(txtAccount.getText(), txtPassword.getText());
+        if(ckbRemember.isSelected()){
+            checked(true);
+        }
+        else{
+            checked(false);
+        }
+
         setOnLogin(true);
         loginCommand.setOnSucceed(new Callback() {
             @Override
@@ -105,6 +135,7 @@ public class LoginController {
                 return null;
             }
         });
+
         loginCommand.execute();
     }
 
