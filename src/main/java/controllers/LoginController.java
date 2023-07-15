@@ -53,8 +53,8 @@ public class LoginController {
         AutoCalculateInterestCommand command = new AutoCalculateInterestCommand();
         String username = pref.get("Username","");
         String password = pref.get("Password","");
-        txtAccount.setText(username);txtAccount.setPromptText(username);
-        txtPassword.setText(password);txtPassword.setPromptText(password);
+        txtAccount.setText(username);
+        txtPassword.setText(password);
         command.setOnSucceed(new Callback() {
             @Override
             public Object call(Object param) {
